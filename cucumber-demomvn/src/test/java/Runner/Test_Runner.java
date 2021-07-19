@@ -10,8 +10,11 @@ import io.cucumber.junit.CucumberOptions;
 glue= {"Stepdefinition"},
 monochrome =true, //to make console output in a better format 
 dryRun = false ,
-strict = true )
+strict = true ,
 
+plugin = {"html:testoutput/cucumber.html","junit:testoutput/cucumber.xml","json:testoutput/cucumber.json"}
+
+)
 public class Test_Runner {
 
 }
