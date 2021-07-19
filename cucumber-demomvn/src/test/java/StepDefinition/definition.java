@@ -14,7 +14,7 @@ public class definition {
     @Given("login page")
     public void login_page() {
         // Write code here that turns the phrase above into concrete actions
-    	 System.setProperty("webdriver.chrome.driver", "C://Users//Admin//Downloads//chromedriver_win32");
+    	 System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\Documents\\chromedriver_win32");
  	    driver = new ChromeDriver();
  	    driver.get("https://opensource-demo.orangehrmlive.com/");
 
