@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.941">
+    <testcase classname="To login into application" name="To test login with multiple data" time="0.302">
+        <failure message="The driver executable is a directory: C:\Users\Admin\Documents" type="java.lang.IllegalStateException"><![CDATA[Given login page............................................................failed
+When Enter valid name "Admin"...............................................skipped
+And Enter valid password "admin123".........................................skipped
+And Click on Submit button..................................................skipped
+Then I should see the username as "<login name>"............................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver executable is a directory: C:\Users\Admin\Documents
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:148)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at StepDefinition.definition.login_page(definition.java:18)
+	at ✽.login page(file:///C:/Users/Admin/git/repository/cucumber-demomvn/src/test/resources/Login/login.feature:4)
+]]></failure>
+    </testcase>
+    <testcase classname="To login into application" name="To test login with multiple data 2" time="0.024">
+        <failure message="The driver executable is a directory: C:\Users\Admin\Documents" type="java.lang.IllegalStateException"><![CDATA[Given login page............................................................failed
+When Enter valid name "Admin"...............................................skipped
+And Enter valid password "admin123".........................................skipped
+And Click on Submit button..................................................skipped
+Then I should see the username as "<login name>"............................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver executable is a directory: C:\Users\Admin\Documents
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:148)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at StepDefinition.definition.login_page(definition.java:18)
+	at ✽.login page(file:///C:/Users/Admin/git/repository/cucumber-demomvn/src/test/resources/Login/login.feature:4)
+]]></failure>
+    </testcase>
+    <testcase classname="To login into application" name="To test login with invalid credentials" time="0.02">
+        <failure message="The driver executable is a directory: C:\Users\Admin\Documents" type="java.lang.IllegalStateException"><![CDATA[Given login page............................................................failed
+When Enter invalid name "Admin1"............................................skipped
+And Enter invalid password "admin1234"......................................skipped
+And Click on Submit button..................................................skipped
+Then I should see username as "Welcome Paul"................................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver executable is a directory: C:\Users\Admin\Documents
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:148)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at StepDefinition.definition.login_page(definition.java:18)
+	at ✽.login page(file:///C:/Users/Admin/git/repository/cucumber-demomvn/src/test/resources/Login/login.feature:4)
+]]></failure>
+    </testcase>
+</testsuite>

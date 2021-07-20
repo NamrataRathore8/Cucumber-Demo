@@ -14,7 +14,7 @@ public class definition {
     @Given("login page")
     public void login_page() {
         // Write code here that turns the phrase above into concrete actions
-    	 System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\Documents\\chromedriver_win32");
+    	 System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\Documents");
  	    driver = new ChromeDriver();
  	    driver.get("https://opensource-demo.orangehrmlive.com/");
 
@@ -51,10 +51,35 @@ public class definition {
 
     }
 
+    
+
+    	@When("Enter invalid name {string}")
+    	public void enter_invalid_name(String invalidname) {
+    	    // Write code here that turns the phrase above into concrete actions
+    		driver.findElement(By.id("txtUsername")).sendKeys(invalidname);
+    	}
+
+
+    	
+    	@When("Enter invalid password {string}")
+    	public void enter_invalid_password(String invalidpswd) {
+    	    // Write code here that turns the phrase above into concrete actions
+    		driver.findElement(By.id("txtPassword")).sendKeys(invalidpswd);
+    	}
+
+        @Then("I should see username as {string}")
+        public void i_should_see_username_as(String invalidcredentials) throws InterruptedException {
+            // Write code here that turns the phrase above into concrete actions
+        	String Actual = driver.findElement(By.xpath("//*[@id=\"spanMessage\"]")).getText();
+    	    String Expected = invalidcredentials;
+    	    Assert.assertEquals(Expected,Actual);
+    	     driver.quit();
+
+        
 
 
     }
 
-
+}
 	
 

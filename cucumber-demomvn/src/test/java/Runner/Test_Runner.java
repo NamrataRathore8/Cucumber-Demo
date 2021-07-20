@@ -6,11 +6,11 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features= {"login.feature"},
-glue= {"Stepdefinition"},
+@CucumberOptions(features= {"src\\test\\resources\\Login\\login.feature"},
+glue= {"StepDefinition"},
 monochrome =true, //to make console output in a better format 
-dryRun = false ,
-strict = true ,
+dryRun = false ,// if my dryrun is true it will not execute the scenario
+strict = true ,//to check whether any method is missing 
 
 plugin = {"html:testoutput/cucumber.html","junit:testoutput/cucumber.xml","json:testoutput/cucumber.json"}
 

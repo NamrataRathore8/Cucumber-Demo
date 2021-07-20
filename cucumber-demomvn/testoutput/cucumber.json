@@ -1,0 +1,306 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: The driver executable is a directory: C:\\Users\\Admin\\Documents\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:148)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat StepDefinition.definition.login_page(definition.java:18)\r\n\tat ✽.login page(file:///C:/Users/Admin/git/repository/cucumber-demomvn/src/test/resources/Login/login.feature:4)\r\n",
+              "duration": 104721800,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "login page",
+            "match": {
+              "location": "StepDefinition.definition.login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-20T04:40:17.870Z",
+        "line": 29,
+        "name": "To test login with multiple data",
+        "description": "",
+        "id": "to-login-into-application;to-test-login-with-multiple-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Enter valid name \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefinition.definition.enter_valid_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "Enter valid password \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin123\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinition.definition.enter_valid_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996800,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "Click on Submit button",
+            "match": {
+              "location": "StepDefinition.definition.click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1993700,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "I should see the username as \"\u003clogin name\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003clogin name\u003e\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinition.definition.i_should_see_the_username_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: The driver executable is a directory: C:\\Users\\Admin\\Documents\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:148)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat StepDefinition.definition.login_page(definition.java:18)\r\n\tat ✽.login page(file:///C:/Users/Admin/git/repository/cucumber-demomvn/src/test/resources/Login/login.feature:4)\r\n",
+              "duration": 12959200,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "login page",
+            "match": {
+              "location": "StepDefinition.definition.login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-20T04:40:18.258Z",
+        "line": 30,
+        "name": "To test login with multiple data",
+        "description": "",
+        "id": "to-login-into-application;to-test-login-with-multiple-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 995800,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Enter valid name \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefinition.definition.enter_valid_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1995600,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "Enter valid password \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin123\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinition.definition.enter_valid_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996700,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "Click on Submit button",
+            "match": {
+              "location": "StepDefinition.definition.click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 990000,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "I should see the username as \"\u003clogin name\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003clogin name\u003e\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinition.definition.i_should_see_the_username_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: The driver executable is a directory: C:\\Users\\Admin\\Documents\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:148)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat StepDefinition.definition.login_page(definition.java:18)\r\n\tat ✽.login page(file:///C:/Users/Admin/git/repository/cucumber-demomvn/src/test/resources/Login/login.feature:4)\r\n",
+              "duration": 14957600,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "login page",
+            "match": {
+              "location": "StepDefinition.definition.login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-20T04:40:18.331Z",
+        "line": 32,
+        "name": "To test login with invalid credentials",
+        "description": "",
+        "id": "to-login-into-application;to-test-login-with-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "Enter invalid name \"Admin1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin1\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinition.definition.enter_invalid_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996800,
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "Enter invalid password \"admin1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin1234\"",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinition.definition.enter_invalid_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "Click on Submit button",
+            "match": {
+              "location": "StepDefinition.definition.click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 983600,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "I should see username as \"Welcome Paul\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome Paul\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinition.definition.i_should_see_username_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To login into application",
+    "description": "",
+    "id": "to-login-into-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login/login.feature",
+    "tags": []
+  }
+]
